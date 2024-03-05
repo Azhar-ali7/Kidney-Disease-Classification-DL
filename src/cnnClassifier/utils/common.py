@@ -136,6 +136,7 @@ def load_bin(path: Path) -> Any:
     return data
 
 @ensure_annotations
+
 def get_size(path: Path) -> str:
     """
     get size in KB
@@ -147,8 +148,8 @@ def get_size(path: Path) -> str:
         str: size in KB
     """
 
-    round(os.path.getsize(path)/1024)
-    return f"{get_size} KB"
+    size_in_kb = round(os.path.getsize(path)/1024)
+    return f"~{size_in_kb} KB"
 
 
 def decodeImage(imgstring, fileName):
