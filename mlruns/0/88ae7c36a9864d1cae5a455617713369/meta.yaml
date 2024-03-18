@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/azharali/Desktop/Projects/Kidney-Disease-Classification-DL/mlruns/0/88ae7c36a9864d1cae5a455617713369/artifacts
+end_time: 1709899076650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88ae7c36a9864d1cae5a455617713369
+run_name: nosy-owl-736
+run_uuid: 88ae7c36a9864d1cae5a455617713369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709899068168
+status: 3
+tags: []
+user_id: azharali

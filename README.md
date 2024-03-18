@@ -34,3 +34,32 @@ STEP 02- install the requirements
 
 # Finally run the following command
     python app.py
+
+Now,
+
+open up you local host and port
+
+MLflow
+
+>[Documentation](https://mlflow.org/docs/latest/index.html)
+
+cmd
+
+    mlflow ui
+
+Dagshub
+
+>[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI= https://dagshub.com/Azhar-ali7/Kidney-Disease-Classification-DL.mlflow
+MLFLOW_TRACKING_USERNAME= Azhar-ali7
+MLFLOW_TRACKING_PASSWORD= 35095490006cce41728e7e378a3cea9d4531e3da
+python script.py
+
+Run this to export as env variables:
+
+    export ML_FLOW_TRACKING_URI=https://dagshub.com/Azhar-ali7/Kidney-Disease-Classification-DL.mlflow
+
+    export MLFLOW_TRACKING_USERNAME=Azhar-ali7
+
+    export MLFLOW_TRACKING_PASSWORD=35095490006cce41728e7e378a3cea9d4531e3da
